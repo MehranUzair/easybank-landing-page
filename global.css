@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+/* color variables */
+
+:root {
+  /* Primary */
+
+  --Dark-Blue: #2d314d;
+  --Lime-Green: #31d35c;
+  --Bright-Cyan: #2bb7da;
+
+  /* Neutral */
+
+  --Grayish-Blue: #9698a6;
+  --Light-Grayish-Blue: #f3f4f6;
+  --Very-Light-Gray: #fafafa;
+  --White: #ffffff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+p {
+  font-size: 1.8rem;
+}
+
+/* Mobile First Approach used. =>  Container Breakpoints */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+/* ====Break points ends here====*/
